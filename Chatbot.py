@@ -1,12 +1,13 @@
 from openai import OpenAI
 import streamlit as st
 
-with st.sidebar:
-    openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
-    "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
-    "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
-    "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
+### with st.sidebar:
+###     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
+###     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
+###     "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
+###     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
 
+openai_api_key='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'
 st.title("💬 Chatbot")
 st.caption("🚀 A Streamlit chatbot powered by OpenAI")
 if "messages" not in st.session_state:
