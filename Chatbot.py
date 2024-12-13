@@ -7,7 +7,7 @@ import streamlit as st
 ###     "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
 ###     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
 
-openai_api_key='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'
+openai_api_key='sk-proj-'
 st.title("💬 Chatbot")
 st.caption("🚀 A Streamlit chatbot powered by OpenAI")
 if "messages" not in st.session_state:
